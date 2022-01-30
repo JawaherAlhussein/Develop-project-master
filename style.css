@@ -20,7 +20,7 @@ nav{
 
 .nav-link li a{
     text-decoration: none;
-    font-family:Quicksand ;
+    font-family:'Quicksand' ;
     font-size: 25px;
     color: rgb(12,23,83);
     
@@ -40,6 +40,8 @@ nav{
     background-color: rgb(181,167,241) ;
     padding: 50px 32px;
     margin: 20px 20px 0 0; 
+    margin-bottom: -0px;
+    
 }
 
 #text-first{
@@ -62,28 +64,26 @@ nav{
     color: rgb(0,166,156);
     border : none;
     padding: 15px 60px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: "Quicksand";
     margin: 0 auto ;
+    outline: none;
     cursor: pointer;
     border-radius: 8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    width: 300px;
-    position: relative;
-    bottom: 250px;
-    max-width: 600px;
     border-radius: 15px;
+    position: absolute;
+    width: 300px;
+    bottom: 400px;
+    max-width: 600px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Quicksand";
 }
 
 
 .responsive {
     width: 600px;
-    position: relative;
-    left: 500px;
+    position:relative;
+    left: 700px;
     bottom: 200px;
     top: 30px;
     
